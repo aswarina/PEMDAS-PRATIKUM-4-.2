@@ -77,6 +77,14 @@ int main() {
                 inputUser();
                 tampilkanHasilPrima(isFibonacci(angka));
                 break;
+            case 0:
+                cout << "Program selesai, terima kasih!" << endl;
+                return 0;
+            default:
+                cout << "[!] pilihan tidak valid, silahkan masukkan 0, 1, atau 2." << endl;
+                break;
+
         }
     }
+    return 0;
 }
