@@ -39,5 +39,10 @@ void tampilMenu() {
     cout<< "2. Cek Bilangan Fibonacci" << endl;
     cout<< "0. keluar" << endl;
     cout << "Pilih menu: ";
+
+}
+
+// prosedur input user
+void inputUser() {
     
 }
