@@ -31,3 +31,9 @@ bool isFibonacci(int n) {
     return false;
      
 }
+
+// prosedur tampilkan menu
+void tampilMenu() {
+    cout<< "\n--- MENU CEK BILANGAN ---" << endl;
+    
+}
