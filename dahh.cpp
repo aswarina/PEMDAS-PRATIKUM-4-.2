@@ -73,6 +73,10 @@ int main() {
                 inputUser();
                 tampilkanHasilPrima(isPrima(angka));
                 break;
+            case 2:
+                inputUser();
+                tampilkanHasilPrima(isFibonacci(angka));
+                break;
         }
     }
 }
