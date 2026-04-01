@@ -60,5 +60,19 @@ void tampilkanHasilPrima(bool hasil) {
 void tampilkanHasilFibo(bool hasil) {
     if (hasil) cout << "'=> " << angka << " termasuk deret Fibonacci. " << endl;
     else cout << "=> " << angka << " tidak termasuk deret Fibonacci. " << endl;
-    
+
+}
+
+int main() {
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+                inputUser();
+                tampilkanHasilPrima(isPrima(angka));
+                break;
+        }
+    }
 }
