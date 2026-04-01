@@ -55,3 +55,8 @@ void tampilkanHasilPrima(bool hasil) {
     else  cout << "=> " << angka << " bukan bilangan prima. " << endl;
 
 }
+
+// prosedur output hasil fibonacci
+void tampilkanHasilFibo(bool hasil) {
+    
+}
