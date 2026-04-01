@@ -46,5 +46,10 @@ void tampilMenu() {
 void inputUser() {
     cout << "Masukkan angka yang mau dicek: ";
     cin >> angka;
+
+}
+
+// prosedur outpuut hasil prima
+void tampilkanHasilPrima(bool hasil) {
     
 }
