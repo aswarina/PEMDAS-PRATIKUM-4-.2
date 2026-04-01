@@ -59,5 +59,6 @@ void tampilkanHasilPrima(bool hasil) {
 // prosedur output hasil fibonacci
 void tampilkanHasilFibo(bool hasil) {
     if (hasil) cout << "'=> " << angka << " termasuk deret Fibonacci. " << endl;
+    else cout << "=> " << angka << " tidak termasuk deret Fibonacci. " << endl;
     
 }
