@@ -4,3 +4,10 @@ using namespace std;
 // variavel global
 int angka;
 int pilihan;
+
+//fungsi cek prima
+bool isPrima(int n) {
+    if (n < 2) return false;
+    int i = 2;
+    
+}
