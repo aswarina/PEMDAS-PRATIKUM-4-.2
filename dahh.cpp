@@ -28,5 +28,6 @@ bool isFibonacci(int n) {
         c = a + b;
 
     }
+    return false;
      
 }
