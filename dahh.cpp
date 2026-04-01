@@ -44,5 +44,7 @@ void tampilMenu() {
 
 // prosedur input user
 void inputUser() {
+    cout << "Masukkan angka yang mau dicek: ";
+    cin >> angka;
     
 }
