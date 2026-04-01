@@ -52,6 +52,6 @@ void inputUser() {
 // prosedur outpuut hasil prima
 void tampilkanHasilPrima(bool hasil) {
     if(hasil) cout << "=> " << angka << " adalah bilangan prima!" << endl;
-    
+    else  cout << "=> " << angka << " bukan bilangan prima. " << endl;
 
 }
