@@ -35,5 +35,7 @@ bool isFibonacci(int n) {
 // prosedur tampilkan menu
 void tampilMenu() {
     cout<< "\n--- MENU CEK BILANGAN ---" << endl;
+    cout<< "1. Cek Bilangann Prima" << endl;
+    cout<< "2. Cek Bilangan Fibonacci" << endl;
     
 }
